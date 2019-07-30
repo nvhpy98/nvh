@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    height: 100vh;
+    background: url(../img/photo2.jpg) no-repeat center;
+    background-size: 100%;
+
+}
+
+
+body img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#bt1 {
+    position: absolute;
+    display: flex;
+    left: 40%;
+    top: 50%;
+}
+
+#bt2 {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+}
+
+.modal-header {
+    border: unset;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-weight: 700;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.modal-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-body li {
+    position: relative;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.twitter i,
+.gmail i,
+.facebook i {
+    position: absolute;
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    left: 0;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+}
+.twitter a,
+.gmail a,
+.facebook a {
+    position: relative;
+    color: #ffffff;
+    background: #4267b2;
+    text-align: center;
+    display: block;
+    padding: 0.78rem 0;
+    border-radius: 5px;
+}
+
+.twitter i {
+    padding: 1rem 1.25rem;
+}
+.gmail i {
+    padding: 1rem 1.13rem;
+}
+.twitter a {
+    background: #0eb5d3;
+}
+
+.gmail a {
+    background: #fd0c0c;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.form-group {
+    position: relative;
+    margin: 1rem;
+    margin-right: 1.25rem;
+    margin-top: 2rem;
+}
+
+.form-group i {
+    position: absolute;
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+
+.form-control {
+    padding-left: 3rem;
+}
+
+.register button,
+.login button {
+    border: unset;
+    padding: 1rem 2rem;
+    padding-right: 2.25rem;
+    width: 100%;
+}

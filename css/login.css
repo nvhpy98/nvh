@@ -1,0 +1,139 @@
+body {
+    position: relative;
+    height: 100vh;
+    background: url(../img/photo2.jpg) no-repeat center;
+    background-size: 100%;
+
+}
+
+
+body img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#bt1 {
+    position: absolute;
+    display: flex;
+    left: 40%;
+    top: 50%;
+}
+
+#bt2 {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+}
+
+.modal-content {
+    min-width: 500px;
+}
+
+.modal-header {
+    border: unset;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-weight: 700;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-body ul {
+    color: #ffffff;
+    padding: 0;
+    margin-left: 0.6rem;
+    margin-right: 1rem;
+}
+
+.modal-body li {
+    position: relative;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.facebook {
+    background: #4267b2;
+}
+
+.facebook i {
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.facebook a {
+    position: absolute;
+    color: #ffffff;
+    background: #4267b2;
+    padding: 0.75rem;
+    text-align: center;
+    width: 88%;
+}
+
+.twitter i {
+    padding: 1rem 1.25rem;
+    background-color: #116e92;
+}
+
+.twitter a {
+    position: absolute;
+    color: #ffffff;
+    background: #0eb5d3;
+    padding: 0.75rem;
+    text-align: center;
+    width: 88%;
+}
+
+.gmail i {
+    padding: 1rem 1.13rem;
+    background-color: #a70909;
+}
+
+.gmail a {
+    position: absolute;
+    color: #ffffff;
+    background: #fd0c0c;
+    padding: 0.75rem;
+    text-align: center;
+    width: 88%;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.form-group {
+    position: relative;
+    margin: 1rem;
+    margin-right: 1.25rem;
+    margin-top: 2rem;
+}
+
+.form-group i {
+    position: absolute;
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+
+.form-control {
+    padding-left: 3rem;
+}
+
+.login button {
+    border: unset;
+    padding: 1rem 2rem;
+    padding-right: 2.25rem;
+    width: 100%;
+}
